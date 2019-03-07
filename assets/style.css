@@ -6,9 +6,10 @@ body {
 
   background-color: #000;
   color: #fff;
-  font-family: sans-serif;
-  font-weight: bold;
   text-align: center;
+
+  font-family: 'Kanit', sans-serif;
+  font-weight: 100;
 }
 
 main {
@@ -21,11 +22,18 @@ header {
 
 header h1 {
   font-size: 10em;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  font-family: 'Exo 2', sans-serif;
+  /* font-family: 'Kanit', sans-serif; */
+  /* font-family: 'Syncopate', sans-serif; */
 }
 
 header p {
   letter-spacing: 0.3em;
-  padding-left: 0.2em;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+  /* font-weight: 100; */
 }
 
 p {
@@ -36,12 +44,13 @@ p {
 a {
   color: inherit;
   font-weight: inherit;
-  font-style: inherit;
+  font-style: italic;
   text-decoration: inherit;
 }
 
 a:hover, a:active, a:focus {
-  text-decoration: underline;
+  font-weight: 300;
+  letter-spacing: -0.02em;
 }
 
 .nowrap {
